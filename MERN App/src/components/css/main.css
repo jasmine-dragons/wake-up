@@ -1,0 +1,29 @@
+.emphasis {
+  color: red;
+  font-weight: bolder;
+}
+
+.mission {
+  font-size: 60px;
+  font-style: oblique;
+  font-weight: bolder;
+}
+
+.container {
+  font-size: 25px;
+}
+
+.footer {
+  background-color: #282c34;
+  color: white;
+  margin-top: 270px;
+}
+
+.head {
+  font-size: 45px;
+  font-weight: bolder;
+}
+
+.main-wrapper {
+  min-height: 100%;
+}
