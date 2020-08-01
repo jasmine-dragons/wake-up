@@ -5,6 +5,8 @@ import Feed from "./components/Feed.component";
 import About from "./components/About.component";
 import Search from "./components/Search.component";
 import Footer from "./components/Footer.component";
+import SignUp from "./components/SignUp.component";
+import LogIn from "./components/LogIn.component";
 import "./components/css/App.css";
 import "./components/css/main.css";
 import { BrowserRouter as Router, Route } from "react-router-dom";
@@ -20,6 +22,8 @@ function App() {
           <br />
           <Route path="/articles" component={Feed} />
           <Route path="/about" component={About} />
+          <Route path="/signup" component={SignUp} />
+          <Route path="/LogIn" component={LogIn} />
         </div>
         <Footer />
       </div>
