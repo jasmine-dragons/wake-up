@@ -12,8 +12,9 @@ Router.route("/").post((req, res) => {
   const title = req.body.title;
   const location = req.body.location;
   const theme = req.body.theme;
-
-  const newItem = new feedItem({ title, location, theme });
+  const link = req.body.link;
+  const action = req.body.action;
+  const newItem = new feedItem({ title, location, theme, link, action });
 
   newItem
     .save()
@@ -42,6 +43,8 @@ Router.route("/update/:id").post((req, res) => {
       item.title = req.body.title;
       item.location = req.body.location;
       item.theme = req.body.theme;
+      item.link = req.body.link;
+      item.action = req.body.action;
 
       item
         .save()
