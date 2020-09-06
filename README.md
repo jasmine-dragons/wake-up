@@ -24,5 +24,5 @@ Not only did this project teach us valuable lessons on Full Stack Web Developmen
 ## What's next for WakeUp
 This project is just a taste of what we have in store for the future. We plan to expand WakeUp to the public, further optimizing search results, improving the website's aesthetic, and marketing our product to citizens around the world. We hope to continue making a difference in our communities through this educational campaign, in order to defeat the many injustices in society today.
 
-## Video
-https://www.youtube.com/watch?v=ScuUm8llKiM&feature=youtu.be
+## [Video](https://www.youtube.com/watch?v=ScuUm8llKiM&feature=youtu.be)
+
